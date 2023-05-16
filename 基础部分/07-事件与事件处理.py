@@ -24,12 +24,12 @@ def main():
     
     #图形绘制
     #加载图片
-    image = pygame.image.load('Image\\androidparty.jpg')
+    image = pygame.image.load('基础部分\\androidparty.jpg')
     #绘制绘图(图片对象，图标)
     WINSET.blit(image,(0,0))
     #文本绘制
     #创建字体对象
-    BASICFONT = pygame.font.Font('STKAITI.TTF',25)
+    BASICFONT = pygame.font.Font('基础部分\STKAITI.TTF',25)
     #渲染文本内容，生成一张图像
     msgSurf = BASICFONT.render('初始化...',True,MSGCOLOR,MSGBGCOLOR)
     #绘制窗口中

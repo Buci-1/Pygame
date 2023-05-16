@@ -22,7 +22,7 @@ def main():
     
     #图形绘制
     #加载图片
-    image = pygame.image.load('Image\\androidparty.jpg')
+    image = pygame.image.load('androidparty.jpg')
     #绘制绘图(图片对象，图标)
     WINSET.blit(image,(0,0))
     #文本绘制
