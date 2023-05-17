@@ -169,6 +169,15 @@ def main():
     #全局变量
     global WINSET
     global NEW_SURF,NEW_RECT
+    #初始化pygame模块
+    pygame.init()
+    #定义时钟对象
+    FPSCLOCK = pygame.time.Clock()
+    
+
+
+
+
     WINSET, NEW_SURF, NEW_RECT = drawStaticWin()
     initBoard = getStrartingBoard()
     mainBoard = generateNewPuzzle()
